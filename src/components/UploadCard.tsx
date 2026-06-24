@@ -32,7 +32,7 @@ export default function UploadCard() {
       formData.append("file", file);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/extract-label",
+        "https://myntra-label-extractor-backend-production.up.railway.app/extract-label",
         formData,
         {
           responseType: "blob",
