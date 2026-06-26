@@ -47,7 +47,7 @@ export default function UploadCard() {
       setProducts(response.data.products || []);
     } catch (error) {
       console.error(error);
-      alert("Processing failed");
+      alert("Bhai PDF samajh nhi aya, original inovice pdf upload karen");
     } finally {
       setLoading(false);
     }
