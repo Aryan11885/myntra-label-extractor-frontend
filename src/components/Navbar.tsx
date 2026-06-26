@@ -16,17 +16,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="flex gap-3">
-
-          <button className="px-4 py-2 rounded-lg border hover:bg-gray-50">
-            Refresh
-          </button>
-
-          <button className="px-4 py-2 rounded-lg border hover:bg-gray-50">
-            Back To Site
-          </button>
-
-        </div>
 
       </div>
     </header>
